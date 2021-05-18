@@ -151,7 +151,7 @@ public class FragmentFacts extends Fragment {
 
             flag = 1;
             getFacts();
-            getUsers();
+//            getUsers();
             progressBar.setVisibility(ProgressBar.VISIBLE);
 
         } else if (flag == 0) {
